@@ -1,0 +1,17 @@
+{
+  "network": "testnet",
+  "contractId": "CB25X5ISYYR5MDGQPWUOMSFAW27MAZWZN34A32J22I4TBCBXV3YEPSAY",
+  "eventName": "cancel_order",
+  "topicsJson": [
+    {
+      "symbol": "cancel_order"
+    },
+    {
+      "address": "GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWHF"
+    },
+    {
+      "u32": 2
+    }
+  ],
+  "valueJson": {}
+}

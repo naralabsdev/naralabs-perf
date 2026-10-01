@@ -1,0 +1,16 @@
+{
+  "network": "testnet",
+  "contractId": "CBIELTK6YBZJU5UP2WWQEUCYKLPU6AUNZ2BQ4WWFEIE3USCIHMXQDAMA",
+  "eventName": "burn",
+  "topicsJson": [
+    {
+      "symbol": "burn"
+    },
+    {
+      "address": "GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWHF"
+    }
+  ],
+  "valueJson": {
+    "i128": "100"
+  }
+}

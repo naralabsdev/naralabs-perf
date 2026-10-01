@@ -1,0 +1,22 @@
+{
+  "network": "testnet",
+  "contractId": "CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC",
+  "eventName": "transfer",
+  "topicsJson": [
+    {
+      "symbol": "transfer"
+    },
+    {
+      "address": "GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWHF"
+    },
+    {
+      "address": "GBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+    },
+    {
+      "string": "native"
+    }
+  ],
+  "valueJson": {
+    "i128": "1000000"
+  }
+}

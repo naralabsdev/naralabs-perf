@@ -1,0 +1,14 @@
+{
+  "network": "testnet",
+  "contractId": "CAYPAQDKNWMHRATKU5DQ327VDHVRSIVK7UGVWT2A5SUZCUFTLUHXH2JA",
+  "eventName": "filled",
+  "topicsJson": [
+    {
+      "symbol": "filled"
+    },
+    {
+      "u32": 3
+    }
+  ],
+  "valueJson": {}
+}

@@ -1,0 +1,16 @@
+{
+  "network": "testnet",
+  "contractId": "CBGROPHYFCL5FNTNJF6HXVJEWPLOMHZJ3MNISPTB2JHXLGKQMO2MCWK4",
+  "eventName": "counter_incremented",
+  "topicsJson": [
+    {
+      "symbol": "wrong"
+    },
+    {
+      "symbol": "incr"
+    }
+  ],
+  "valueJson": {
+    "u32": 42
+  }
+}

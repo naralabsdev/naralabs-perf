@@ -1,0 +1,14 @@
+{
+  "network": "testnet",
+  "contractId": "CBTBKYT3OMI4LOUX3UGOZTQSGFAABHHNVRVVGI4SSX3WWNHAIGQAE6TC",
+  "eventName": "oracle_updated",
+  "topicsJson": [
+    {
+      "symbol": "oracle_updated"
+    },
+    {
+      "symbol": "USD"
+    }
+  ],
+  "valueJson": {}
+}

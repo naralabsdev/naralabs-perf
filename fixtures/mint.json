@@ -1,0 +1,16 @@
+{
+  "network": "testnet",
+  "contractId": "CBIELTK6YBZJU5UP2WWQEUCYKLPU6AUNZ2BQ4WWFEIE3USCIHMXQDAMA",
+  "eventName": "mint",
+  "topicsJson": [
+    {
+      "symbol": "mint"
+    },
+    {
+      "address": "GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWHF"
+    }
+  ],
+  "valueJson": {
+    "i128": "250000"
+  }
+}

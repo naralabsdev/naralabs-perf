@@ -1,0 +1,13 @@
+{
+  "network": "testnet",
+  "contractId": "CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC",
+  "eventName": "fee",
+  "topicsJson": [
+    {
+      "symbol": "fee"
+    }
+  ],
+  "valueJson": {
+    "i128": "10"
+  }
+}
