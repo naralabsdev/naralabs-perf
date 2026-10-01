@@ -6,7 +6,7 @@ import http from 'k6/http';
 import { check, sleep } from 'k6';
 import { textSummary } from 'https://jslib.k6.io/k6-summary/0.0.2/index.js';
 
-const baseUrl = (__ENV.BASE_URL || 'https://naralabs.io/api/atlas').replace(/\/$/, '');
+const baseUrl = (__ENV.BASE_URL || 'https://atlas.naralabs.io').replace(/\/$/, '');
 const apiKey = __ENV.API_KEY || '';
 const iterations = Number(__ENV.FIXTURE_ITERATIONS || '11');
 

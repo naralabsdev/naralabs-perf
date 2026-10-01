@@ -6,7 +6,7 @@ on:
       target:
         description: BASE_URL (Atlas API)
         required: true
-        default: https://naralabs.io/api/atlas
+        default: https://atlas.naralabs.io
 
 jobs:
   k6-p95:

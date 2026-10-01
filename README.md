@@ -38,7 +38,7 @@ Reports written to `reports/` (JSON summary + optional text).
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `BASE_URL` | `https://naralabs.io/api/atlas` | Atlas API base (no trailing slash) |
+| `BASE_URL` | `https://atlas.naralabs.io` | Atlas API base (no trailing slash); use this host for `nl_api_` keys |
 | `API_KEY` | *(required)* | Bearer token without `Bearer ` prefix |
 | `VUS` | `5` | Virtual users (p95 test) |
 | `DURATION` | `30s` | Load duration (p95 test) |
