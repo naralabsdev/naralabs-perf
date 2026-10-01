@@ -18,7 +18,8 @@ if (!apiKey) {
   throw new Error('Set API_KEY (nl_api_…) in the environment');
 }
 
-const payload = JSON.parse(open('../fixtures/counter_incremented.json'));
+// Use transfer (published on production testnet). counter_incremented contract is local-fixture only.
+const payload = JSON.parse(open('../fixtures/transfer.json'));
 
 export const options = {
   scenarios: {
@@ -63,6 +64,6 @@ export function handleSummary(data) {
   const ts = new Date().toISOString().replace(/[:.]/g, '-');
   return {
     stdout: textSummary(data, { indent: ' ', enableColors: true }),
-    [`../reports/k6-decode-p95-${ts}.json`]: JSON.stringify(data, null, 2),
+    [`reports/k6-decode-p95-${ts}.json`]: JSON.stringify(data, null, 2),
   };
 }

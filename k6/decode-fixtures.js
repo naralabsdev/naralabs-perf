@@ -14,7 +14,11 @@ if (!apiKey) {
   throw new Error('Set API_KEY (nl_api_…) in the environment');
 }
 
-const fixtures = JSON.parse(open('../fixtures/index.json'));
+const fixturesAll = JSON.parse(open('../fixtures/index.json'));
+const productionOnly = (__ENV.PRODUCTION_FIXTURES || 'true') === 'true';
+const fixtures = productionOnly
+  ? fixturesAll.filter((fx) => !['counter_incremented', 'prefix_mismatch_raw'].includes(fx.id))
+  : fixturesAll;
 
 export const options = {
   scenarios: {
@@ -72,6 +76,6 @@ export function handleSummary(data) {
   const ts = new Date().toISOString().replace(/[:.]/g, '-');
   return {
     stdout: textSummary(data, { indent: ' ', enableColors: true }),
-    [`../reports/k6-decode-fixtures-${ts}.json`]: JSON.stringify(data, null, 2),
+    [`reports/k6-decode-fixtures-${ts}.json`]: JSON.stringify(data, null, 2),
   };
 }
