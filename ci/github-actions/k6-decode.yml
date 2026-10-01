@@ -1,3 +1,4 @@
+# Copy to .github/workflows/k6-decode.yml after cloning (GitHub requires workflow scope to push via API).
 name: k6 decode benchmark
 
 on:
