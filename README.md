@@ -64,11 +64,11 @@ When decoder manifest changes:
 
 ## GitHub Actions (optional)
 
-Workflow template: `ci/github-actions/k6-decode.yml`. After clone, copy it to `.github/workflows/` and add repository secret **`NARALABS_API_KEY`**. Run manually via **Actions → k6 decode benchmark**.
+Workflow: `.github/workflows/k6-decode.yml`. Add repository secret **`NARALABS_API_KEY`**, then run **Actions → k6 decode benchmark** (manual dispatch). Mirror copy: `ci/github-actions/k6-decode.yml`.
 
 ## Repository
 
-**https://github.com/gavinalinski/naralabs-perf** — transfer to `naralabsdev/naralabs-perf` when org admin creates the empty repo (local `gh` account lacks `CreateRepository` on the org).
+**https://github.com/naralabsdev/naralabs-perf**
 
 ## License
 
