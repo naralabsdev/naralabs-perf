@@ -32,7 +32,13 @@ set -a && source .env && set +a
 | `scripts/run-decode-p95.sh` | `k6/decode-single.js` | p95 `http_req_duration` **&lt; 500ms** on live API |
 | `scripts/run-decode-fixtures.sh` | `k6/decode-fixtures.js` | Prepared fixtures; checks match `expect` (decoded/raw) |
 
-Reports written to `reports/` (JSON summary + optional text).
+Reports written to `reports/` (JSON summary; local runs gitignored).
+
+## Archived submission evidence (Deliverable 2)
+
+Committed k6 summary JSON for Instawards / Chapter Lead review:
+
+**[evidence/instawards-sow-d2-demo-env-2026-10-01/](evidence/instawards-sow-d2-demo-env-2026-10-01/)** — README + `k6-decode-p95.json` (p95 ≈ 72.6 ms) + `k6-decode-fixtures.json` (100% checks, 9 HTTP fixtures).
 
 ## Environment
 
